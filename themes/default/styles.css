@@ -217,6 +217,29 @@ body {
     fill: currentColor;
 }
 
+/* Footer */
+.footer {
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.footer a {
+    color: #ee7125;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.footer a:hover {
+    opacity: 1;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     :root {

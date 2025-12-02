@@ -294,6 +294,30 @@ a:hover {
     color: var(--accent-color);
 }
 
+/* Footer */
+.footer {
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    text-align: center;
+    animation: transitionAnimation 0.5s ease-out;
+}
+
+.footer p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.05rem;
+}
+
+.footer a {
+    color: #ee7125;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer a:hover {
+    opacity: 0.8;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     :root {

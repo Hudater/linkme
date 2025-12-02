@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/ironicbadger/linkme/internal/config"
 	"github.com/ironicbadger/linkme/internal/theme"
@@ -29,6 +30,7 @@ type TemplateData struct {
 	DescriptionHTML template.HTML
 	ThemeStyles     []string // CSS files to include
 	ThemeScripts    []string // JS files to include
+	BuildDate       string   // Date when the site was generated
 }
 
 type SectionData struct {
@@ -119,6 +121,7 @@ func (g *Generator) prepareTemplateData() *TemplateData {
 		DescriptionHTML: descHTML,
 		ThemeStyles:     g.theme.Styles,
 		ThemeScripts:    g.theme.Scripts,
+		BuildDate:       time.Now().Format("Jan 2, 2006"),
 	}
 
 	// Prepare links with SVG icons

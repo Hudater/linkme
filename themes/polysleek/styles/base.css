@@ -254,7 +254,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     animation: transitionAnimation 0.5s ease-out;
 }
 
@@ -296,14 +297,14 @@ a:hover {
 
 /* Footer */
 .footer {
-    margin-top: 3rem;
-    padding: 1.5rem 0;
+    margin-top: 1rem;
+    padding: 1rem 0;
     text-align: center;
     animation: transitionAnimation 0.5s ease-out;
 }
 
 .footer p {
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: var(--text-secondary);
     letter-spacing: 0.05rem;
 }

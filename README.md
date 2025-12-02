@@ -2,7 +2,7 @@
 
 A customizable link page generator built in Go.
 
-![A screenshot of the application.](screenshot.png)
+![A screenshot of the application.](assets/screenshot.png)
 
 ## Usage
 

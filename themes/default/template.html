@@ -26,7 +26,9 @@
     <div class="container">
         <div class="profile">
             {{if .Config.Avatar}}
-            <img src="{{.Config.Avatar}}" alt="{{.Config.Name}}" class="avatar">
+            <div class="avatar-wrapper">
+                <img src="{{.Config.Avatar}}" alt="{{.Config.Name}}" class="avatar">
+            </div>
             {{end}}
             <h1 class="name">{{.Config.Name}}</h1>
             {{if .Config.Subtitle}}

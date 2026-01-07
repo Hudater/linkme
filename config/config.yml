@@ -1,12 +1,12 @@
 configVersion: "1.0"
 
 # Profile
-name: "Alex Kretzschmar"
-subtitle: "Head of DevRel at Tailscale"
-description: |
-  aka @ironicbadger
-  Father. Educator. Tinkerer.
-avatar: "assets/avatar.jpg"
+name: "Harshit Mani Tripathi"
+subtitle: "Aspiring DevOps Engineer, Homelab enthusiast, Developer"
+# description: |
+#   aka @ironicbadger
+#   Father. Educator. Tinkerer.
+avatar: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407361/cropped_circle_image_pz7ua1.png"
 
 # Theme selection
 theme: "default"
@@ -21,30 +21,20 @@ background:
 # icon: Simple Icons slug (see https://simpleicons.org)
 # color: hex color for button background
 links:
-  - title: "blog.ktz.me"
-    url: "https://blog.ktz.me"
+  - title: "Personal Blog"
+    url: "https://blog.hudater.dev"
     icon: "rss"
     color: "#404040"
 
-  - title: "Perfect Media Server"
-    url: "https://perfectmediaserver.com"
-    iconUrl: "assets/icons/pms.png"
-    color: "#3B82F6"
-
   - title: "GitHub: Ironicbadger"
-    url: "https://github.com/IronicBadger"
+    url: "https://github.com/Hudater"
     icon: "github"
     color: "#0a0a0a"
 
-  - title: "YouTube: KTZ Systems"
-    url: "https://www.youtube.com/@ktzsystems"
-    icon: "youtube"
-    color: "#dc2626"
-
-  - title: "YouTube: Tailscale"
-    url: "https://www.youtube.com/@tailscale"
-    iconUrl: "assets/icons/tailscale.png"
-    color: "#242424"
+  - title: "Technical Docs"
+    url: "https://docs.hudater.dev"
+    icon: "github"
+    color: "#8CA1AF"
 
   - title: "YouTube: Personal Stuff"
     url: "https://www.youtube.com/@alexkretzschmar"
@@ -53,9 +43,9 @@ links:
 
 # Sections with headings
 sections:
-  - title: "Past Projects"
+  - title: "Projects"
     links:
-      - title: "Self-Hosted Podcast"
+      - title: "My Homelab!"
         url: "https://selfhosted.show"
         iconUrl: "assets/icons/selfhosted.png"
         color: "#ee7125"
@@ -66,15 +56,15 @@ sections:
 
 # Social links (small icons)
 socials:
-  - icon: "mastodon"
-    url: "https://techhub.social/@ironicbadger"
-    color: "#6364FF"
+  - icon: "gmail"
+    url: "mailto:harshit@hudater.dev"
+    # color: "#6364FF"
   - icon: "x"
-    url: "https://twitter.com/ironicbadger"
+    url: "https://twitter.com/hudater_"
     color: "#FFFFFF"
-  - icon: "reddit"
-    url: "https://www.reddit.com/user/Ironicbadger"
-    color: "#FF4500"
+  # - icon: "reddit"
+  #   url: "https://www.reddit.com/user/Ironicbadger"
+  #   color: "#FF4500"
   - icon: "linkedin"
-    url: "https://www.linkedin.com/in/alex-kretzschmar/"
+    url: "https://www.linkedin.com/in/hudater"
     color: "#0A66C2"

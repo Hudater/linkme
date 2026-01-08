@@ -1,5 +1,7 @@
 # linkme
 
+## My personal fork with added features
+
 A customizable link page generator built in Go.
 
 ![A screenshot of the application.](assets/screenshot.png)

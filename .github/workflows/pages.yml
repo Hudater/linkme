@@ -2,9 +2,9 @@ name: Pages Build and Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "personal-changes" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "personal-changes" ]
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ defaults:
     shell: bash
 env:
   GO_VERSION: 1.25
-  BASE_URL: "https://CHANGEME.EXAMPLE"
+  BASE_URL: "https://test.hudater.dev"
 
 jobs:
   build:

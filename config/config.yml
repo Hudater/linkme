@@ -8,6 +8,14 @@ description: |
   Father. Educator. Tinkerer.
 avatar: "assets/avatar.jpg"
 
+## Analytics
+analytics:
+  google:
+    id: "G-TEST123"
+  goatcounter:
+    id: "test-goat"
+
+
 # Theme selection
 theme: "default"
 

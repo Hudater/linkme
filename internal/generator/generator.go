@@ -31,6 +31,8 @@ type TemplateData struct {
 	ThemeStyles     []string // CSS files to include
 	ThemeScripts    []string // JS files to include
 	BuildDate       string   // Date when the site was generated
+	Analytics 		*config.Analytics
+
 }
 
 type SectionData struct {
@@ -122,6 +124,7 @@ func (g *Generator) prepareTemplateData() *TemplateData {
 		ThemeStyles:     g.theme.Styles,
 		ThemeScripts:    g.theme.Scripts,
 		BuildDate:       time.Now().Format("Jan 2, 2006"),
+		Analytics:       &g.cfg.Analytics,
 	}
 
 	// Prepare links with SVG icons

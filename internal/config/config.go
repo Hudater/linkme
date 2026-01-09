@@ -18,6 +18,20 @@ type Config struct {
 	Links         []Link     `yaml:"links"`
 	Sections      []Section  `yaml:"sections"`
 	Socials       []Social   `yaml:"socials"`
+	Analytics     Analytics `yaml:"analytics"`
+}
+
+type Analytics struct {
+	Google      *GoogleAnalytics `yaml:"google"`
+	GoatCounter *GoatCounter     `yaml:"goatcounter"`
+}
+
+type GoogleAnalytics struct {
+	ID string `yaml:"id"`
+}
+
+type GoatCounter struct {
+	ID string `yaml:"id"`
 }
 
 type Background struct {

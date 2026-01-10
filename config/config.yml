@@ -9,6 +9,14 @@ subtitle: "Aspiring DevOps Engineer, Homelab enthusiast, Developer"
 avatar: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407361/cropped_circle_image_pz7ua1.png"
 favicon: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407384/favicon_josj9j.ico"
 
+## Analytics
+analytics:
+  google:
+    id: "G-TEST123"
+  goatcounter:
+    id: "test-goat"
+
+
 # Theme selection
 theme: "default"
 

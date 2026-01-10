@@ -23,3 +23,11 @@ docker run -d -p 8080:80 ghcr.io/ironicbadger/linkme:latest
 ## Configuration
 
 Edit `config/config.yaml` to customize your links and appearance.
+
+### Analytics
+
+Google analytics and Goatcounter currently allowed
+
+If `Goatcounter.selfhosted=True`: id is used as domain therefore user need to provide FQDN
+in ID
+else: `id` is prepended to `.goatcounter.com`

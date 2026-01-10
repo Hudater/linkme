@@ -11,9 +11,10 @@ avatar: "assets/avatar.jpg"
 ## Analytics
 analytics:
   google:
-    id: "G-TEST123"
+    id: ""
   goatcounter:
-    id: "test-goat"
+    id: ""
+    selfhosted: false
 
 
 # Theme selection

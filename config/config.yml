@@ -12,9 +12,10 @@ favicon: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407384/favicon_
 ## Analytics
 analytics:
   google:
-    #id: "G-TEST123"
+    id: ""
   goatcounter:
-    #id: "test-goat"
+    id: ""
+    selfhosted: false
 
 
 # Theme selection

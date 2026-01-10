@@ -32,7 +32,8 @@ type GoogleAnalytics struct {
 }
 
 type GoatCounter struct {
-	ID string `yaml:"id"`
+	ID          string `yaml:"id"`
+	Selfhosted  bool   `yaml:"selfhosted"`
 }
 
 type Background struct {

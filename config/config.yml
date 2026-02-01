@@ -14,7 +14,7 @@ analytics:
   google:
     id: ""
   goatcounter:
-    id: ""
+    id: "hudater-linkme"
     selfhosted: false
 
 
@@ -31,50 +31,51 @@ background:
 # icon: Simple Icons slug (see https://simpleicons.org)
 # color: hex color for button background
 links:
-  - title: "Personal Blog"
-    url: "https://blog.hudater.dev"
-    icon: "rss"
-    color: "#404040"
 
-  - title: "GitHub: Ironicbadger"
+  - title: "GitHub: Hudater"
     url: "https://github.com/Hudater"
     icon: "github"
     color: "#0a0a0a"
+
+  - title: "Personal Tech Blog"
+    url: "https://blog.hudater.dev"
+    icon: "rss"
+    color: "#404040"
 
   - title: "Technical Docs"
     url: "https://docs.hudater.dev"
     icon: "github"
     color: "#8CA1AF"
 
-  - title: "YouTube: Personal Stuff"
-    url: "https://www.youtube.com/@alexkretzschmar"
-    icon: "youtube"
-    color: "#dc2626"
+  # - title: "YouTube: Personal Stuff"
+  #   url: "https://www.youtube.com/@alexkretzschmar"
+  #   icon: "youtube"
+  #   color: "#dc2626"
 
 # Sections with headings
 sections:
   - title: "Projects"
     links:
       - title: "My Homelab!"
-        url: "https://selfhosted.show"
+        url: "https://blog.hudater.dev/posts/homelab/"
         iconUrl: "assets/icons/selfhosted.png"
         color: "#ee7125"
-      - title: "linuxserver.io - Co-founder"
-        url: "https://linuxserver.io"
-        iconUrl: "assets/icons/linuxserver.png"
-        color: "#DA3B8A"
+      - title: "Automated Infrastructure"
+        url: "https://github.com/hudater/infra_lab/"
+        icon: "opentofu"
+        # color: "#FFDA18"
 
 # Social links (small icons)
 socials:
   - icon: "gmail"
     url: "mailto:harshit@hudater.dev"
-    # color: "#6364FF"
+    color: "#EA4335"
   - icon: "x"
     url: "https://twitter.com/hudater_"
     color: "#FFFFFF"
-  # - icon: "reddit"
-  #   url: "https://www.reddit.com/user/Ironicbadger"
-  #   color: "#FF4500"
+  - icon: "reddit"
+    url: "https://www.reddit.com/user/hudater"
+    color: "#FF4500"
   - icon: "linkedin"
     url: "https://www.linkedin.com/in/hudater"
-    color: "#0A66C2"
+    color: "#005FF9"

@@ -12,6 +12,13 @@ A customizable link page generator built in Go.
 
 ![A screenshot of the application.](assets/screenshot.png)
 
+## Usage with Just
+
+```bash
+# Development server with live reload
+just dev
+```
+
 ## Usage
 
 ```bash

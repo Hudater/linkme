@@ -13,6 +13,7 @@ type Config struct {
 	Subtitle      string     `yaml:"subtitle"`
 	Description   string     `yaml:"description"`
 	Avatar        string     `yaml:"avatar"`
+	Favicon        string     `yaml:"favicon"`
 	Theme         string     `yaml:"theme"`
 	Background    Background `yaml:"background"`
 	Links         []Link     `yaml:"links"`

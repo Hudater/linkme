@@ -261,6 +261,16 @@ func (g *Generator) copyUserAssets() error {
 		}
 	}
 
+	if g.cfg.Favicon != "" && !strings.HasPrefix(g.cfg.Favicon, "http://") && !strings.HasPrefix(g.cfg.Favicon, "https://") {
+		srcFavicon := filepath.Join("assets", g.cfg.Favicon)
+		if _, err := os.Stat(srcFavicon); err == nil {
+			dstFavicon := filepath.Join(g.outputDir, g.cfg.Favicon)
+			if err := copyFile(srcFavicon, dstFavicon); err != nil {
+				return err
+			}
+		}
+	}
+
 	// Copy user assets directory if it exists
 	userAssetsDir := "assets"
 	if _, err := os.Stat(userAssetsDir); err == nil {

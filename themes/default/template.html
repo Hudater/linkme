@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{.Config.Name}}</title>
     <meta name="description" content="{{.Config.Description}}">
-    <link rel="icon" type="image/png" href="assets/favicon.png">
+    {{if .Config.Favicon}}
+    <link rel="icon" type="image/png" href="{{.Config.Favicon}}">
+    {{end}}
 
     {{/* Analytics */}}
     {{/* GoatCounter */}}
@@ -69,7 +71,9 @@
     <div class="container">
         <div class="profile">
             {{if .Config.Avatar}}
-            <img src="{{.Config.Avatar}}" alt="{{.Config.Name}}" class="avatar">
+            <div class="avatar-wrapper">
+                <img src="{{.Config.Avatar}}" alt="{{.Config.Name}}" class="avatar">
+            </div>
             {{end}}
             <h1 class="name">{{.Config.Name}}</h1>
             {{if .Config.Subtitle}}

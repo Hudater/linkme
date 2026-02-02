@@ -15,6 +15,9 @@ analytics:
   goatcounter:
     id: ""
     selfhosted: false
+  plausible:
+    domain: "" # tracked site
+    script_url: ""
 
 
 # Theme selection

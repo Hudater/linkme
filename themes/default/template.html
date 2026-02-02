@@ -22,6 +22,17 @@
     {{ end }}
     {{ end }}
 
+    {{/* Plausible analytics */}}
+    {{ with .Analytics.Plausible }}
+    {{ if .Domain }}
+    {{ if .ScriptURL }}
+    <script defer data-domain="{{ .Domain }}" src="{{ .ScriptURL }}"></script>
+    {{ else }}
+    <script defer data-domain="{{ .Domain }}" src="https://plausible.io/js/script.js"></script>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
     {{/* Google analytics */}}
     {{ with .Analytics.Google }}
     {{ if .ID }}

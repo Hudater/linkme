@@ -12,7 +12,7 @@ favicon: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407384/favicon_
 ## Analytics
 analytics:
   google:
-    id: ""
+    id: "G-MSTPBLQLXE"
   goatcounter:
     id: "hudater-linkme"
     selfhosted: false

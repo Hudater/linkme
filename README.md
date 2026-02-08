@@ -41,8 +41,24 @@ Edit `config/config.yaml` to customize your links and appearance.
 
 ### Analytics
 
-Google analytics and Goatcounter currently allowed
+Supported: Google Analytics, GoatCounter, and Plausible.
 
-If `Goatcounter.selfhosted=True`: id is used as domain therefore user need to provide FQDN
-in ID
-else: `id` is prepended to `.goatcounter.com`
+Example config:
+
+```yaml
+analytics:
+  google:
+    id: "G-XXXXXXX"
+  goatcounter:
+    id: "example"
+    selfhosted: false
+  plausible:
+    domain: "example.com" # tracked site
+    script_url: "" # optional; set to your self-hosted instance URL (e.g. https://plausible.example.com/js/script.js)
+```
+
+GoatCounter:
+If `selfhosted: true`, `id` must be the full host (FQDN) of your instance. Otherwise `id` is used as the subdomain on `goatcounter.com`.
+
+Plausible:
+Set `domain` to the site you want to track. For self-hosted, set `script_url` to your instance’s script URL.

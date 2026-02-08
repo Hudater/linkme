@@ -25,6 +25,7 @@ type Config struct {
 type Analytics struct {
 	Google      *GoogleAnalytics `yaml:"google"`
 	GoatCounter *GoatCounter     `yaml:"goatcounter"`
+	Plausible   *Plausible       `yaml:"plausible"`
 }
 
 type GoogleAnalytics struct {
@@ -34,6 +35,11 @@ type GoogleAnalytics struct {
 type GoatCounter struct {
 	ID          string `yaml:"id"`
 	Selfhosted  bool   `yaml:"selfhosted"`
+}
+
+type Plausible struct {
+	Domain    string `yaml:"domain"`
+	ScriptURL string `yaml:"script_url"`
 }
 
 type Background struct {

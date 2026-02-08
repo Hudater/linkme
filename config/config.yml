@@ -16,6 +16,9 @@ analytics:
   goatcounter:
     id: "hudater-linkme"
     selfhosted: false
+  plausible:
+    domain: "" # tracked site
+    script_url: ""
 
 
 # Theme selection

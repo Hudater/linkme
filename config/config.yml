@@ -50,11 +50,6 @@ links:
     icon: "github"
     color: "#8CA1AF"
 
-  # - title: "YouTube: Personal Stuff"
-  #   url: "https://www.youtube.com/@alexkretzschmar"
-  #   icon: "youtube"
-  #   color: "#dc2626"
-
 # Sections with headings
 sections:
   - title: "Projects"

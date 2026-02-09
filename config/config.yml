@@ -62,6 +62,10 @@ sections:
         url: "https://github.com/hudater/infra_lab/"
         icon: "opentofu"
         # color: "#FFDA18"
+      - title: "Cohort Assignments and Blogs"
+        url: "https://cohort.hudater.dev/"
+        icon: "rss"
+        color: "#EF6C00"
 
 # Social links (small icons)
 socials:

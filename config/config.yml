@@ -48,7 +48,13 @@ links:
   - title: "Technical Docs"
     url: "https://docs.hudater.dev"
     icon: "github"
+    color: "#222222"
+
+  - title: "Resume"
+    url: "assets/resume_censored.pdf"
+    icon: "book-open"
     color: "#8CA1AF"
+
 
 # Sections with headings
 sections:

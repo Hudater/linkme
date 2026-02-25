@@ -43,18 +43,14 @@ links:
   - title: "Personal Tech Blog"
     url: "https://blog.hudater.dev"
     icon: "rss"
+    icon-provider: "simpleicon"
     color: "#404040"
 
   - title: "Technical Docs"
     url: "https://docs.hudater.dev"
     icon: "github"
+    icon-provider: "simpleicon"
     color: "#222222"
-
-  - title: "Resume"
-    url: "assets/resume_censored.pdf"
-    icon: "book-open"
-    color: "#8CA1AF"
-
 
 # Sections with headings
 sections:
@@ -76,14 +72,19 @@ sections:
 # Social links (small icons)
 socials:
   - icon: "gmail"
+    icon-provider: "simpleicon"
     url: "mailto:harshit@hudater.dev"
     color: "#EA4335"
   - icon: "x"
+    icon-provider: "simpleicon"
     url: "https://twitter.com/hudater_"
     color: "#FFFFFF"
   - icon: "reddit"
+    icon-provider: "simpleicon"
     url: "https://www.reddit.com/user/hudater"
     color: "#FF4500"
   - icon: "linkedin"
+    icon-provider: "simpleicon"
     url: "https://www.linkedin.com/in/hudater"
     color: "#005FF9"
+

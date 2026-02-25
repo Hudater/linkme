@@ -44,13 +44,19 @@ links:
     url: "https://blog.hudater.dev"
     icon: "rss"
     icon-provider: "simpleicon"
-    color: "#404040"
+    color: "#BF2424"
 
   - title: "Technical Docs"
     url: "https://docs.hudater.dev"
-    icon: "github"
-    icon-provider: "simpleicon"
+    icon: "notebook-text"
+    icon-provider: "lucide"
     color: "#222222"
+
+  - title: "Hire Me!"
+    url: "assets/resume_censored.pdf"
+    icon: "file-user"
+    icon-provider: "lucide"
+    color: "#3571D4"
 
 # Sections with headings
 sections:

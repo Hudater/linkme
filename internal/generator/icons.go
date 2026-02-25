@@ -4,6 +4,8 @@ import (
 	"embed"
 	"encoding/json"
 	"strings"
+
+	"github.com/kaugesaar/lucide-go"
 )
 
 //go:embed icons.json
@@ -50,10 +52,7 @@ func GetIconSVG(iconName, provider string) string {
 		return GetSimpleIcon(iconName)
 
 	case "lucide":
-		if svg, ok := getLucideIconSVG(iconName); ok {
-			return svg
-		}
-		return placeholderSVG
+		return getLucideIconSVG(iconName)
 
 	default:
 		return placeholderSVG
@@ -65,9 +64,19 @@ func normalizeSlug(slug string) string {
 }
 
 // TODO: wire this to lucide-go module
-func getLucideIconSVG(name string) (string, bool) {
-	_ = name
-	return "", false
+func getLucideIconSVG(slug string) string {
+	icon := lucide.Icon(slug, map[string]any{
+		"size":        24,
+		"strokeWidth": 2,
+		"color":       "currentColor",
+	})
+
+	// lucide.Icon returns template.HTML
+	if icon == "" {
+		return placeholderSVG
+	}
+
+	return string(icon)
 }
 
 // GetSimpleIcon returns an SVG string for the given icon slug

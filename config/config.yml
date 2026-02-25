@@ -37,6 +37,7 @@ links:
   - title: "blog.ktz.me"
     url: "https://blog.ktz.me"
     icon: "rss"
+    icon-provider: "simpleicon"
     color: "#404040"
 
   - title: "Perfect Media Server"
@@ -47,11 +48,13 @@ links:
   - title: "GitHub: Ironicbadger"
     url: "https://github.com/IronicBadger"
     icon: "github"
+    icon-provider: "simpleicon"
     color: "#0a0a0a"
 
   - title: "YouTube: KTZ Systems"
     url: "https://www.youtube.com/@ktzsystems"
     icon: "youtube"
+    icon-provider: "simpleicon"
     color: "#dc2626"
 
   - title: "YouTube: Tailscale"
@@ -62,6 +65,7 @@ links:
   - title: "YouTube: Personal Stuff"
     url: "https://www.youtube.com/@alexkretzschmar"
     icon: "youtube"
+    icon-provider: "simpleicon"
     color: "#dc2626"
 
 # Sections with headings
@@ -80,14 +84,18 @@ sections:
 # Social links (small icons)
 socials:
   - icon: "mastodon"
+    icon-provider: "simpleicon"
     url: "https://techhub.social/@ironicbadger"
     color: "#6364FF"
   - icon: "x"
+    icon-provider: "simpleicon"
     url: "https://twitter.com/ironicbadger"
     color: "#FFFFFF"
   - icon: "reddit"
+    icon-provider: "simpleicon"
     url: "https://www.reddit.com/user/Ironicbadger"
     color: "#FF4500"
   - icon: "linkedin"
+    icon-provider: "simpleicon"
     url: "https://www.linkedin.com/in/alex-kretzschmar/"
     color: "#0A66C2"

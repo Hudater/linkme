@@ -132,7 +132,7 @@ func (g *Generator) prepareTemplateData() *TemplateData {
 		data.Links = append(data.Links, LinkData{
 			Title:   link.Title,
 			URL:     link.URL,
-			IconSVG: template.HTML(GetSimpleIcon(link.Icon)),
+			IconSVG: template.HTML(GetIconSVG(link.Icon, link.IconProvider)),
 			IconURL: link.IconURL,
 			Color:   link.Color,
 		})

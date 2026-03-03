@@ -40,6 +40,12 @@ links:
     icon: "github"
     color: "#0a0a0a"
 
+  - title: "Portfolio"
+    url: "https://hudater.dev"
+    icon: "briefcase-business"
+    icon-provider: "lucide"
+    color: "#0a0a0a"
+
   - title: "Personal Tech Blog"
     url: "https://blog.hudater.dev"
     icon: "rss"

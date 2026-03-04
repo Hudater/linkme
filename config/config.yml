@@ -11,15 +11,14 @@ favicon: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407384/favicon_
 
 ## Analytics
 analytics:
-  google:
-    id: "G-MSTPBLQLXE"
-  goatcounter:
-    id: "hudater-linkme"
-    selfhosted: false
-  plausible:
-    domain: "" # tracked site
-    script_url: ""
-
+    google:
+        id: "G-MSTPBLQLXE"
+    goatcounter:
+        id: "hudater-linkme"
+        selfhosted: false
+    plausible:
+        domain: "" # tracked site
+        script_url: ""
 
 # Theme selection
 theme: "default"
@@ -27,76 +26,74 @@ theme: "default"
 # Background options
 # type: color | image | gradient | particles
 background:
-  type: "color"
-  value: "#1e1f26"
+    type: "color"
+    value: "#1e1f26"
 
 # Main links (large buttons)
 # icon: Simple Icons slug (see https://simpleicons.org)
 # color: hex color for button background
 links:
+    - title: "GitHub: Hudater"
+      url: "https://github.com/Hudater"
+      icon: "github"
+      color: "#0a0a0a"
 
-  - title: "GitHub: Hudater"
-    url: "https://github.com/Hudater"
-    icon: "github"
-    color: "#0a0a0a"
+    - title: "Portfolio"
+      url: "https://hudater.dev"
+      icon: "briefcase-business"
+      icon-provider: "lucide"
+      color: "#0a0a0a"
 
-  - title: "Portfolio"
-    url: "https://hudater.dev"
-    icon: "briefcase-business"
-    icon-provider: "lucide"
-    color: "#0a0a0a"
+    - title: "Personal Tech Blog"
+      url: "https://blog.hudater.dev"
+      icon: "rss"
+      icon-provider: "simpleicon"
+      color: "#BF2424"
 
-  - title: "Personal Tech Blog"
-    url: "https://blog.hudater.dev"
-    icon: "rss"
-    icon-provider: "simpleicon"
-    color: "#BF2424"
+    - title: "Technical Docs"
+      url: "https://docs.hudater.dev"
+      icon: "notebook-text"
+      icon-provider: "lucide"
+      color: "#222222"
 
-  - title: "Technical Docs"
-    url: "https://docs.hudater.dev"
-    icon: "notebook-text"
-    icon-provider: "lucide"
-    color: "#222222"
-
-  - title: "Hire Me!"
-    url: "assets/resume_censored.pdf"
-    icon: "file-user"
-    icon-provider: "lucide"
-    color: "#3571D4"
+    - title: "Hire Me!"
+      url: "assets/Harshit_SRE_Infrastructure_DevOps_Resume_censored.pdf"
+      icon: "file-user"
+      icon-provider: "lucide"
+      color: "#3571D4"
 
 # Sections with headings
 sections:
-  - title: "Projects"
-    links:
-      - title: "My Homelab!"
-        url: "https://blog.hudater.dev/posts/homelab/"
-        iconUrl: "assets/icons/selfhosted.png"
-        color: "#ee7125"
-      - title: "Automated Infrastructure"
-        url: "https://github.com/hudater/infra_lab/"
-        icon: "opentofu"
-        # color: "#FFDA18"
-      - title: "Cohort Assignments and Blogs"
-        url: "https://cohort.hudater.dev/"
-        icon: "rss"
-        color: "#EF6C00"
+    - title: "Projects"
+      links:
+          - title: "My Homelab!"
+            url: "https://blog.hudater.dev/posts/homelab/"
+            iconUrl: "assets/icons/selfhosted.png"
+            color: "#ee7125"
+          - title: "Automated Infrastructure"
+            url: "https://github.com/hudater/infra_lab/"
+            icon: "opentofu"
+            # color: "#FFDA18"
+          - title: "Cohort Assignments and Blogs"
+            url: "https://cohort.hudater.dev/"
+            icon: "rss"
+            color: "#EF6C00"
 
 # Social links (small icons)
 socials:
-  - icon: "gmail"
-    icon-provider: "simpleicon"
-    url: "mailto:harshit@hudater.dev"
-    color: "#EA4335"
-  - icon: "x"
-    icon-provider: "simpleicon"
-    url: "https://twitter.com/hudater_"
-    color: "#FFFFFF"
-  - icon: "reddit"
-    icon-provider: "simpleicon"
-    url: "https://www.reddit.com/user/hudater"
-    color: "#FF4500"
-  - icon: "linkedin"
-    icon-provider: "simpleicon"
-    url: "https://www.linkedin.com/in/hudater"
-    color: "#005FF9"
-
+    - icon: "gmail"
+      icon-provider: "simpleicon"
+      url: "mailto:harshit@hudater.dev"
+      color: "#EA4335"
+    - icon: "x"
+      icon-provider: "simpleicon"
+      url: "https://twitter.com/hudater_"
+      color: "#FFFFFF"
+    - icon: "reddit"
+      icon-provider: "simpleicon"
+      url: "https://www.reddit.com/user/hudater"
+      color: "#FF4500"
+    - icon: "linkedin"
+      icon-provider: "simpleicon"
+      url: "https://www.linkedin.com/in/hudater"
+      color: "#005FF9"

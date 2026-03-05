@@ -2,10 +2,14 @@ configVersion: "1.0"
 
 # Profile
 name: "Harshit Mani Tripathi"
-subtitle: "Aspiring DevOps Engineer, Homelab enthusiast, Developer"
-# description: |
-#   aka @ironicbadger
-#   Father. Educator. Tinkerer.
+subtitle: "DevOps |  SRE "
+description: |
+  Hybrid infrastructure platform
+  Serving ~500k DNS queries
+  Automated via Terraform
+  
+  Public uptime@
+  status.hudater.dev
 avatar: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407361/cropped_circle_image_pz7ua1.png"
 favicon: "https://res.cloudinary.com/djsasyvfl/image/upload/v1764407384/favicon_josj9j.ico"
 
@@ -33,15 +37,21 @@ background:
 # icon: Simple Icons slug (see https://simpleicons.org)
 # color: hex color for button background
 links:
-    - title: "GitHub: Hudater"
-      url: "https://github.com/Hudater"
-      icon: "github"
-      color: "#0a0a0a"
+    - title: "Infra Uptime Dashboard"
+      url: "https://status.hudater.dev"
+      icon: "server"
+      icon-provider: "lucide"
+      color: "#166534"
 
     - title: "Portfolio"
       url: "https://hudater.dev"
       icon: "briefcase-business"
       icon-provider: "lucide"
+      color: "#111111"
+
+    - title: "GitHub: Hudater"
+      url: "https://github.com/Hudater"
+      icon: "github"
       color: "#0a0a0a"
 
     - title: "Personal Tech Blog"
@@ -50,34 +60,36 @@ links:
       icon-provider: "simpleicon"
       color: "#BF2424"
 
-    - title: "Technical Docs"
-      url: "https://docs.hudater.dev"
-      icon: "notebook-text"
-      icon-provider: "lucide"
-      color: "#222222"
+    # - title: "Technical Docs"
+    #   url: "https://docs.hudater.dev"
+    #   icon: "notebook-text"
+    #   icon-provider: "lucide"
+    #   color: "#222222"
 
-    - title: "Hire Me!"
-      url: "assets/Harshit_SRE_Infrastructure_DevOps_Resume_censored.pdf"
+    - title: "DevOps / SRE Resume"
+      url: "assets/Censored_Harshit_SRE_Infrastructure_DevOps_Resume.pdf"
       icon: "file-user"
       icon-provider: "lucide"
-      color: "#3571D4"
+      color: "#2563EB"
 
 # Sections with headings
 sections:
     - title: "Projects"
       links:
+          - title: "Automated Infrastructure"
+            url: "https://github.com/hudater/infra_lab/"
+            icon: "opentofu"
+            color: "#4f239b"
+
           - title: "My Homelab!"
             url: "https://blog.hudater.dev/posts/homelab/"
             iconUrl: "assets/icons/selfhosted.png"
             color: "#ee7125"
-          - title: "Automated Infrastructure"
-            url: "https://github.com/hudater/infra_lab/"
-            icon: "opentofu"
-            # color: "#FFDA18"
+
           - title: "Cohort Assignments and Blogs"
             url: "https://cohort.hudater.dev/"
             icon: "rss"
-            color: "#EF6C00"
+            color: "#9A3412"
 
 # Social links (small icons)
 socials:
@@ -85,6 +97,10 @@ socials:
       icon-provider: "simpleicon"
       url: "mailto:harshit@hudater.dev"
       color: "#EA4335"
+    - icon: "linkedin"
+      icon-provider: "simpleicon"
+      url: "https://www.linkedin.com/in/hudater"
+      color: "#005FF9"
     - icon: "x"
       icon-provider: "simpleicon"
       url: "https://twitter.com/hudater_"
@@ -93,7 +109,3 @@ socials:
       icon-provider: "simpleicon"
       url: "https://www.reddit.com/user/hudater"
       color: "#FF4500"
-    - icon: "linkedin"
-      icon-provider: "simpleicon"
-      url: "https://www.linkedin.com/in/hudater"
-      color: "#005FF9"

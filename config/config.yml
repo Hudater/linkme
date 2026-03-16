@@ -2,7 +2,7 @@ configVersion: "1.0"
 
 # Profile
 name: "Harshit Mani Tripathi"
-subtitle: "DevOps |  SRE "
+subtitle: "DevOps | SRE "
 description: |
   Hybrid infrastructure platform
   Serving ~500k DNS queries
@@ -67,7 +67,7 @@ links:
     #   color: "#222222"
 
     - title: "DevOps / SRE Resume"
-      url: "assets/Censored_Harshit_SRE_Infrastructure_DevOps_Resume.pdf"
+      url: "https://resume.hudater.dev"
       icon: "file-user"
       icon-provider: "lucide"
       color: "#2563EB"

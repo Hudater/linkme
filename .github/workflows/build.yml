@@ -65,3 +65,19 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Connect Tailscale
+        if: github.event_name != 'pull_request'
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+
+      - name: Deploy
+        if: github.event_name != 'pull_request'
+        run: |
+          ssh -o StrictHostKeyChecking=no ironicbadger@ktz-cloud '
+            docker compose -f /home/ironicbadger/compose.yaml pull ktz-linkme &&
+            docker compose -f /home/ironicbadger/compose.yaml up -d ktz-linkme
+          '

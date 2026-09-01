@@ -60,6 +60,7 @@ body {
 
 /* Profile Section */
 .profile {
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -103,10 +104,11 @@ body {
 }
 
 .description {
-    font-size: 1.1rem;
+    font-size: clamp(0.65rem, 3.3vw, 1.1rem);
     color: var(--text-secondary);
-    max-width: 400px;
+    max-width: 100%;
     line-height: 1.5;
+    white-space: nowrap;
     transition: color 0.3s ease;
 }
 
@@ -260,10 +262,6 @@ body {
 
     .name {
         font-size: 1.5rem;
-    }
-
-    .description {
-        font-size: 0.9rem;
     }
 
     .link-button {

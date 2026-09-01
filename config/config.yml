@@ -2,10 +2,10 @@ configVersion: "1.0"
 
 # Profile
 name: "Alex Kretzschmar"
-subtitle: "Head of DevRel at Tailscale"
+subtitle: "Head of Product Marketing at Unraid"
 description: |
   aka @ironicbadger
-  Father. Educator. Tinkerer.
+  Technical Educator | Video Producer | Self-Hosting Advocate
 avatar: "assets/avatar.jpg"
 favicon: "assets/favicon.png"
 
@@ -20,7 +20,6 @@ analytics:
     domain: "" # tracked site
     script_url: ""
 
-
 # Theme selection
 theme: "default"
 
@@ -34,6 +33,11 @@ background:
 # icon: Simple Icons slug (see https://simpleicons.org)
 # color: hex color for button background
 links:
+  - title: "YouTube: KTZ Systems"
+    url: "https://www.youtube.com/@ktzsystems"
+    icon: "youtube"
+    color: "#dc2626"
+
   - title: "blog.ktz.me"
     url: "https://blog.ktz.me"
     icon: "rss"
@@ -49,16 +53,6 @@ links:
     icon: "github"
     color: "#0a0a0a"
 
-  - title: "YouTube: KTZ Systems"
-    url: "https://www.youtube.com/@ktzsystems"
-    icon: "youtube"
-    color: "#dc2626"
-
-  - title: "YouTube: Tailscale"
-    url: "https://www.youtube.com/@tailscale"
-    iconUrl: "assets/icons/tailscale.png"
-    color: "#242424"
-
   - title: "YouTube: Personal Stuff"
     url: "https://www.youtube.com/@alexkretzschmar"
     icon: "youtube"
@@ -68,6 +62,10 @@ links:
 sections:
   - title: "Past Projects"
     links:
+      - title: "YouTube: Tailscale"
+        url: "https://www.youtube.com/@tailscale"
+        iconUrl: "assets/icons/tailscale.png"
+        color: "#242424"
       - title: "Self-Hosted Podcast"
         url: "https://selfhosted.show"
         iconUrl: "assets/icons/selfhosted.png"

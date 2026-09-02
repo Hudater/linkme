@@ -54,7 +54,7 @@ type Link struct {
 	URL          string `yaml:"url"`
 	Icon         string `yaml:"icon"`          // Simple Icons slug
 	IconURL      string `yaml:"iconUrl"`       // Custom icon URL (overrides icon)
-	IconProvider string `yaml:"icon-provider"` // Simpleicon (default) or lucide.dev
+	IconProvider string `yaml:"icon-provider"` // simpleicon (default) or lucide
 	Color        string `yaml:"color"`         // hex color for button
 }
 
@@ -65,7 +65,7 @@ type Section struct {
 
 type Social struct {
 	Icon         string `yaml:"icon"`          // Simple Icons slug
-	IconProvider string `yaml:"icon-provider"` // Simpleicon (default) or lucide.dev
+	IconProvider string `yaml:"icon-provider"` // simpleicon (default) or lucide
 	URL          string `yaml:"url"`
 	Color        string `yaml:"color"` // hex color for icon
 }

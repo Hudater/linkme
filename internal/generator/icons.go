@@ -63,7 +63,6 @@ func normalizeSlug(slug string) string {
 	return strings.ToLower(strings.TrimSpace(slug))
 }
 
-// TODO: wire this to lucide-go module
 func getLucideIconSVG(slug string) string {
 	icon := lucide.Icon(slug, map[string]any{
 		"size":        24,

@@ -31,8 +31,8 @@ type TemplateData struct {
 	ThemeStyles     []string // CSS files to include
 	ThemeScripts    []string // JS files to include
 	BuildDate       string   // Date when the site was generated
-	Analytics 		*config.Analytics
-
+	AssetVersion    string   // Cache-busting version for theme assets
+	Analytics       *config.Analytics
 }
 
 type SectionData struct {
@@ -115,6 +115,7 @@ func (g *Generator) Generate() error {
 func (g *Generator) prepareTemplateData() *TemplateData {
 	// Convert newlines in description to <br> tags
 	descHTML := template.HTML(strings.ReplaceAll(template.HTMLEscapeString(g.cfg.Description), "\n", "<br>"))
+	builtAt := time.Now()
 
 	data := &TemplateData{
 		Config:          g.cfg,
@@ -123,7 +124,8 @@ func (g *Generator) prepareTemplateData() *TemplateData {
 		DescriptionHTML: descHTML,
 		ThemeStyles:     g.theme.Styles,
 		ThemeScripts:    g.theme.Scripts,
-		BuildDate:       time.Now().Format("Jan 2, 2006"),
+		BuildDate:       builtAt.Format("Jan 2, 2006"),
+		AssetVersion:    builtAt.UTC().Format("20060102150405"),
 		Analytics:       &g.cfg.Analytics,
 	}
 

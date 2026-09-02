@@ -54,7 +54,7 @@
 
     {{/* Theme stylesheets */}}
     {{range .ThemeStyles}}
-    <link rel="stylesheet" href="{{.}}">
+    <link rel="stylesheet" href="{{.}}?v={{$.AssetVersion}}">
     {{end}}
 
     <style>
@@ -125,7 +125,7 @@
 
     {{/* Theme scripts */}}
     {{range .ThemeScripts}}
-    <script src="{{.}}"></script>
+    <script src="{{.}}?v={{$.AssetVersion}}"></script>
     {{end}}
 
     {{if eq .Config.Background.Type "particles"}}

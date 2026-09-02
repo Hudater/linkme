@@ -2,10 +2,10 @@ configVersion: "1.0"
 
 # Profile
 name: "Alex Kretzschmar"
-subtitle: "Head of DevRel at Tailscale"
+subtitle: "Head of Product Marketing at Unraid"
 description: |
   aka @ironicbadger
-  Father. Educator. Tinkerer.
+  Technical Educator | Self-Hosting Advocate
 avatar: "assets/avatar.jpg"
 favicon: "assets/favicon.png"
 
@@ -20,7 +20,6 @@ analytics:
     domain: "" # tracked site
     script_url: ""
 
-
 # Theme selection
 theme: "default"
 
@@ -31,13 +30,18 @@ background:
   value: "#1e1f26"
 
 # Main links (large buttons)
-# icon: Simple Icons slug (see https://simpleicons.org)
+# icon: Simple Icons slug by default, or a Lucide icon name with icon-provider: "lucide"
 # color: hex color for button background
 links:
+  - title: "YouTube: KTZ Systems"
+    url: "https://www.youtube.com/@ktzsystems"
+    icon: "youtube"
+    color: "#dc2626"
+
   - title: "blog.ktz.me"
     url: "https://blog.ktz.me"
     icon: "rss"
-    icon-provider: "simpleicon"
+    icon-provider: "lucide"
     color: "#404040"
 
   - title: "Perfect Media Server"
@@ -48,30 +52,21 @@ links:
   - title: "GitHub: Ironicbadger"
     url: "https://github.com/IronicBadger"
     icon: "github"
-    icon-provider: "simpleicon"
     color: "#0a0a0a"
-
-  - title: "YouTube: KTZ Systems"
-    url: "https://www.youtube.com/@ktzsystems"
-    icon: "youtube"
-    icon-provider: "simpleicon"
-    color: "#dc2626"
-
-  - title: "YouTube: Tailscale"
-    url: "https://www.youtube.com/@tailscale"
-    iconUrl: "assets/icons/tailscale.png"
-    color: "#242424"
 
   - title: "YouTube: Personal Stuff"
     url: "https://www.youtube.com/@alexkretzschmar"
     icon: "youtube"
-    icon-provider: "simpleicon"
     color: "#dc2626"
 
 # Sections with headings
 sections:
   - title: "Past Projects"
     links:
+      - title: "YouTube: Tailscale"
+        url: "https://www.youtube.com/@tailscale"
+        iconUrl: "assets/icons/tailscale.png"
+        color: "#242424"
       - title: "Self-Hosted Podcast"
         url: "https://selfhosted.show"
         iconUrl: "assets/icons/selfhosted.png"
@@ -84,18 +79,14 @@ sections:
 # Social links (small icons)
 socials:
   - icon: "mastodon"
-    icon-provider: "simpleicon"
     url: "https://techhub.social/@ironicbadger"
     color: "#6364FF"
   - icon: "x"
-    icon-provider: "simpleicon"
     url: "https://twitter.com/ironicbadger"
     color: "#FFFFFF"
   - icon: "reddit"
-    icon-provider: "simpleicon"
     url: "https://www.reddit.com/user/Ironicbadger"
     color: "#FF4500"
   - icon: "linkedin"
-    icon-provider: "simpleicon"
     url: "https://www.linkedin.com/in/alex-kretzschmar/"
     color: "#0A66C2"
